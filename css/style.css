@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* Start of Header */
+
+.navbar{
+    background-color: #000;
+    padding: 1rem 8rem;
+    z-index: 9999;
+}
+
+.navbar .navbar-brand{
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+#navbarSupportedContent > ul > li:nth-child(n) > a{
+    color: #fff;
+    font-size: 1.1rem;
+    padding: 0 0.8rem;
+}
+
+#navbarSupportedContent > ul > li:nth-child(n) > a:hover{
+    color: #00bf6d;
+}
+
+#navbarSupportedContent button{
+    background: #00bf6d;
+    font-weight: 600;
+    padding: 0.4rem 1.4rem;
+    border-radius: 30px;
+}
+
+#navbarSupportedContent button:hover{
+    background: #fff;
+}
+
+.mid{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mid video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero{
+    position: relative;
+}
+
+.mid .hero p{
+    width: 55%;
+    font-size: 1.3rem;
+    letter-spacing: 0.2px;
+}
+
+.mid .hero a{
+    background: #00bf6d;
+    font-weight: 600;
+    padding: 0.6rem 1.5rem;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.mid .hero a:hover{
+    background: #fff;
+}
+
+/* End of Header */
+
+/* Start of About */
+
+#about{
+    background: #000;
+}
+
+#about .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+}
+
+#about h5{
+    color: #00bf6d;
+    font-weight: 800;
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+
+/* #about h3{
+    font-weight: 700;
+    font-size: 2.5rem;
+} */
+
+#about p{
+    font-weight: 400;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+}
+
+#about a{
+    background: #00bf6d;
+    font-weight: 600;
+    padding: 0.6rem 1.5rem;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+#about a:hover{
+    background: #fff;
+}
+
+/* End of About */
+
+/* Start of Discover */
+
+#discover{
+    background: #fff;
+}
+
+#discover .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+}
+
+#discover h5{
+    color: #00bf6d;
+    font-weight: 800;
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+
+/* #discover h3{
+    font-weight: 700;
+    font-size: 2.5rem;
+} */
+
+#discover p{
+    font-weight: 400;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+}
+
+#discover a{
+    background: #000;
+    font-weight: 600;
+    padding: 0.6rem 1.5rem;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+#discover a:hover{
+    background: #00bf6d;
+}
+
+/* End of Discover */
+
+/* Start of Services */
+
+#services{
+    background: #000;
+}
+
+#services .one, .two, .three{
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem 1.5rem;
+    border-radius: 10px;
+}
+
+#services a{
+    background: #000;
+    font-weight: 600;
+    padding: 0.6rem 1.5rem;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+#services a:hover{
+    background: #00bf6d;
+}
+
+/* End of Services */
+
+/* Start of Join Us */
+
+#join-us{
+    background: #fff;
+}
+
+#join-us .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+}
+
+#join-us h5{
+    color: #00bf6d;
+    font-weight: 800;
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+
+/* #join-us h3{
+    font-weight: 700;
+    font-size: 2.5rem;
+} */
+
+#join-us p{
+    font-weight: 400;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+}
+
+#join-us a{
+    background: #000;
+    font-weight: 600;
+    padding: 0.6rem 1.5rem;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+#join-us a:hover{
+    background: #00bf6d;
+}
+
+/* End of Join Us */
+
+/* Start of Footer */
+
+footer{
+    background: #000;
+}
+
+.f-btn .btn:hover{
+    background: #00bf6d;
+    border: 1px solid #00bf6d;
+}
+
+.f-links a{
+    text-decoration: none;
+}
+
+.f-links a:hover{
+    color: #00bf6d !important;
+}
+
+/* End of Footer */
+
+/* Start of Media Queries */
+
+@media screen and (max-width: 991px){
+    .navbar{
+        padding: 1rem;
+    }
+
+    #navbarSupportedContent > ul{
+        padding: 0.5rem 0;
+    }
+
+    #navbarSupportedContent > ul > li:nth-child(n) > a{
+        padding: 1rem 0;
+        text-align: center;
+    }
+
+    #navbarSupportedContent button{
+        margin: 0 auto;
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 575px){
+    #about h3, #discover h3, #join-us h3{
+        font-size: 1.5rem;
+    }
+}
+
+/* End of Media Queries */
